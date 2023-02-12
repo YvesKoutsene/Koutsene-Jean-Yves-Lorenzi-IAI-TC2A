@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+    <h2>PROFILE</h2>
+        <div>
+            <p>Information du compte</p>
+            
+                <table>
+                        <tr>
+                            <td>Utilisateur: </td>
+                            <td>{{ accout.username }}</td>
+                        </tr>
+                        <tr>
+                            <td>Email: </td>
+                            <td>{{ accout.email }}</td>
+                        </tr>
+                </table>
+            
+    </div>
+{% endblock %}
